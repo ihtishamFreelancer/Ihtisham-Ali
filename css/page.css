@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+
+/*** Form stard ***/
+  .contact-input {
+    position: relative;
+  }
+  .contact-input > input,
+  .contact-input > textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 17px;
+    padding: 20px 75px;
+    color: #fff;
+    background: #FF800F;
+    border-radius: 8px;
+  }
+  .contact-input-submit {
+    margin: 0 auto;
+  }
+  .contact-input-submit > input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    color: #fff;
+    background: #FF800F;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .contact-input > .message {
+    height: 150px;
+    resize: none;
+  }
+  .contact-input > i {
+    font-size: 15px;
+    color: #fff;
+    position: absolute;
+    top: 21px;
+    left: 20px;
+  }
+  .contact-input > i:after {
+    position: absolute;
+    content: '';
+    height: 30px;
+    width: 2px;
+    background: #fff;
+    left: 32px;
+    top: -7px;
+  }
+  .contact-input > input::-webkit-input-placeholder,
+  .contact-input > textarea::-webkit-input-placeholder {
+    color: #fff;
+  }
+  .contact-input > input:-ms-input-placeholder,
+  .contact-input > textarea:-ms-input-placeholder {
+    color: #fff;
+  }
+  .contact-input > input::-ms-input-placeholder,
+  .contact-input > textarea::-ms-input-placeholder {
+    color: #fff;
+  }
+  .contact-input > input::placeholder,
+  .contact-input > textarea::placeholder {
+    color: #fff;
+  }
+
+  /*** Form end***/
+
+
+  /* installation-img  */
+  .ac-installation-img{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .ac-installation-img{
+    margin-bottom: 30px;
+  
+  }
+  .ac-installation-img img{
+      width: 300px;
+      
+  }
+  .ac-installation-img1 img:hover{
+      transform: scale(1.5);
+      transition: 1s;
+  }
+  .ac-installation-img1{
+    overflow: hidden;
+    border: 5px solid #ececec;
+    line-height: 0;
+  }
+  .gallery-main {
+    margin-bottom: 100px;
+  }
+  .gallery {
+    line-height: 0;
+    -webkit-column-count: 5;
+    /* split it into 5 columns */
+    -webkit-column-gap: 5px;
+    /* give it a 5px gap between columns */
+    -moz-column-count: 5;
+    -moz-column-gap: 5px;
+    column-count: 5;
+    column-gap: 5px;
+  }
+  .gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 5px;
+    /* to match column gap */
+  }
+  .gallery {
+    row-gap: 30px;
+  }
+  .gallery .Gallery-img {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+  }
+  .gallery .Gallery-img img {
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+  }
+  .service-brand-img{
+    margin: 55px 0;
+  }
+  .service-brand-img .brand-img img {
+     max-width: 90%;
+     height: auto;
+     filter: grayscale();
+     border: 1px solid #D1D1D1;
+   }
+   .service-brand-img .brand-img img:hover {
+     filter: none;
+   }
+
+
+   
+  .size{
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Satisfy', cursive;
+  }
+
+  .display-4-size{
+    font-size: 28px;
+  }
